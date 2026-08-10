@@ -19,18 +19,18 @@
 <tr>
 <td>
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=iankinoti-cloud&show_icons=true&count_private=true&bg_color=1A1612&title_color=C96442&text_color=F5EFE0&border_color=3D3020&icon_color=C96442&hide_border=false&rank_icon=github)](https://github.com/iankinoti-cloud)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=iankinoti-cloud&show_icons=true&count_private=true&bg_color=141413&title_color=c6613f&text_color=faf9f5&border_color=3d3d3a&icon_color=c6613f&hide_border=false&rank_icon=github)](https://github.com/iankinoti-cloud)
 
 </td>
 <td>
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=iankinoti-cloud&layout=compact&langs_count=6&bg_color=1A1612&title_color=C96442&text_color=F5EFE0&border_color=3D3020&hide_border=false)](https://github.com/iankinoti-cloud)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=iankinoti-cloud&layout=compact&langs_count=6&bg_color=141413&title_color=c6613f&text_color=faf9f5&border_color=3d3d3a&hide_border=false)](https://github.com/iankinoti-cloud)
 
 </td>
 </tr>
 </table>
 
-[![Streak](https://github-readme-streak-stats.demolab.com/?user=iankinoti-cloud&background=1A1612&border=3D3020&stroke=3D3020&ring=C96442&fire=D4804A&currStreakNum=F5EFE0&sideNums=F5EFE0&currStreakLabel=8B7355&sideLabels=8B7355&dates=4A3E2E)](https://github.com/iankinoti-cloud)
+[![Streak](https://github-readme-streak-stats.demolab.com/?user=iankinoti-cloud&background=141413&border=3d3d3a&stroke=3d3d3a&ring=c6613f&fire=d97757&currStreakNum=faf9f5&sideNums=faf9f5&currStreakLabel=87867f&sideLabels=87867f&dates=3d3d3a)](https://github.com/iankinoti-cloud)
 
 </div>
 
@@ -63,18 +63,18 @@
 
 <div align="center">
 
-![TypeScript](https://img.shields.io/badge/TypeScript-1A1612?style=flat-square&logo=typescript&logoColor=C96442)
-![Python](https://img.shields.io/badge/Python-1A1612?style=flat-square&logo=python&logoColor=C96442)
-![JavaScript](https://img.shields.io/badge/JavaScript-1A1612?style=flat-square&logo=javascript&logoColor=C96442)
-![React](https://img.shields.io/badge/React-1A1612?style=flat-square&logo=react&logoColor=C96442)
-![Next.js](https://img.shields.io/badge/Next.js-1A1612?style=flat-square&logo=nextdotjs&logoColor=F5EFE0)
-![Flask](https://img.shields.io/badge/Flask-1A1612?style=flat-square&logo=flask&logoColor=F5EFE0)
-![Vite](https://img.shields.io/badge/Vite-1A1612?style=flat-square&logo=vite&logoColor=C96442)
-![Tailwind](https://img.shields.io/badge/Tailwind-1A1612?style=flat-square&logo=tailwindcss&logoColor=C96442)
-![Supabase](https://img.shields.io/badge/Supabase-1A1612?style=flat-square&logo=supabase&logoColor=C96442)
-![Vitest](https://img.shields.io/badge/Vitest-1A1612?style=flat-square&logo=vitest&logoColor=C96442)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-1A1612?style=flat-square&logo=githubactions&logoColor=F5EFE0)
-![Azure](https://img.shields.io/badge/Azure_SWA-1A1612?style=flat-square&logo=microsoftazure&logoColor=C96442)
+![TypeScript](https://img.shields.io/badge/TypeScript-141413?style=flat-square&logo=typescript&logoColor=c6613f)
+![Python](https://img.shields.io/badge/Python-141413?style=flat-square&logo=python&logoColor=c6613f)
+![JavaScript](https://img.shields.io/badge/JavaScript-141413?style=flat-square&logo=javascript&logoColor=c6613f)
+![React](https://img.shields.io/badge/React-141413?style=flat-square&logo=react&logoColor=c6613f)
+![Next.js](https://img.shields.io/badge/Next.js-141413?style=flat-square&logo=nextdotjs&logoColor=faf9f5)
+![Flask](https://img.shields.io/badge/Flask-141413?style=flat-square&logo=flask&logoColor=faf9f5)
+![Vite](https://img.shields.io/badge/Vite-141413?style=flat-square&logo=vite&logoColor=c6613f)
+![Tailwind](https://img.shields.io/badge/Tailwind-141413?style=flat-square&logo=tailwindcss&logoColor=c6613f)
+![Supabase](https://img.shields.io/badge/Supabase-141413?style=flat-square&logo=supabase&logoColor=c6613f)
+![Vitest](https://img.shields.io/badge/Vitest-141413?style=flat-square&logo=vitest&logoColor=c6613f)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-141413?style=flat-square&logo=githubactions&logoColor=faf9f5)
+![Azure](https://img.shields.io/badge/Azure_SWA-141413?style=flat-square&logo=microsoftazure&logoColor=c6613f)
 
 </div>
 
