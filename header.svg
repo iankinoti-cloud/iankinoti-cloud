@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="290" viewBox="0 0 900 290">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340">
   <defs>
 
     <filter id="blob-blur" x="-60%" y="-60%" width="220%" height="220%">
@@ -38,53 +38,77 @@
       .blob4 { animation: drift    22s ease-in-out infinite reverse; }
 
       .name  { animation: slide-up 0.7s ease-out 0.10s both; }
-      .sub   { animation: slide-up 0.7s ease-out 0.30s both; }
-      .tag   { animation: slide-up 0.7s ease-out 0.52s both; }
+      .title { animation: slide-up 0.7s ease-out 0.24s both; }
+      .sub   { animation: slide-up 0.7s ease-out 0.38s both; }
+      .tag1  { animation: slide-up 0.7s ease-out 0.52s both; }
+      .tag2  { animation: slide-up 0.7s ease-out 0.62s both; }
+      .tag3  { animation: slide-up 0.7s ease-out 0.72s both; }
       .meta  { animation: fade-in  1.0s ease-out 0.90s both; }
     </style>
   </defs>
 
   <!-- Background -->
-  <rect width="900" height="290" fill="#141413" rx="12"/>
+  <rect width="900" height="340" fill="#141413" rx="12"/>
 
   <!-- Organic blobs -->
   <ellipse class="blob1" cx="130" cy="85"  rx="205" ry="132" fill="#c6613f" opacity="0.14" filter="url(#blob-blur)"/>
-  <ellipse class="blob2" cx="775" cy="210" rx="225" ry="145" fill="#d97757" opacity="0.11" filter="url(#blob-blur)"/>
-  <ellipse class="blob3" cx="455" cy="295" rx="285" ry="115" fill="#c6613f" opacity="0.08" filter="url(#blob-blur)"/>
+  <ellipse class="blob2" cx="775" cy="255" rx="225" ry="145" fill="#d97757" opacity="0.11" filter="url(#blob-blur)"/>
+  <ellipse class="blob3" cx="455" cy="345" rx="285" ry="115" fill="#c6613f" opacity="0.08" filter="url(#blob-blur)"/>
   <ellipse class="blob4" cx="845" cy="48"  rx="92"  ry="62"  fill="#d97757" opacity="0.10" filter="url(#blob-blur-sm)"/>
 
   <!-- Left accent bar -->
-  <rect x="48" y="70" width="2.5" height="146" fill="#c6613f" rx="1.5" opacity="0.85"/>
+  <rect x="48" y="70" width="2.5" height="196" fill="#c6613f" rx="1.5" opacity="0.85"/>
 
   <!-- Name -->
-  <text class="name" x="62" y="138"
+  <text class="name" x="62" y="122"
         font-family="system-ui,-apple-system,Arial,sans-serif"
-        font-size="62" font-weight="700" fill="#faf9f5" letter-spacing="-1.5">
-    Ian Kinoti | Software Engineer
+        font-size="52" font-weight="700" fill="#faf9f5" letter-spacing="-1.5">
+    Ian Kinoti
+  </text>
+
+  <!-- Title -->
+  <text class="title" x="65" y="156"
+        font-family="system-ui,-apple-system,Arial,sans-serif"
+        font-size="20" font-weight="500" fill="#c6613f" letter-spacing="0.4">
+    Software Engineer
   </text>
 
   <!-- Subtitle -->
-  <text class="sub" x="65" y="174"
+  <text class="sub" x="65" y="184"
         font-family="system-ui,-apple-system,Arial,sans-serif"
-        font-size="16.5" fill="#87867f" letter-spacing="0.6">
-   · TypeScript · Python · React
+        font-size="14" fill="#87867f" letter-spacing="0.6">
+    TypeScript · Python · React
   </text>
 
-  <!-- Tagline -->
-  <text class="tag" x="65" y="212"
+  <!-- Tagline — line 1 -->
+  <text class="tag1" x="65" y="217"
         font-family="Georgia,'Times New Roman',serif"
-        font-size="15" fill="#c6613f" font-style="italic">
-    I focus on turning complex workflows into simple, usable systems that help businesses operate more efficiently. I'm looking forward to collaboration in different fields where I can contribute to building scalable products while evolving into a learned and informed professional.
+        font-size="13.5" fill="#c6613f" font-style="italic">
+    I focus on turning complex workflows into simple, usable systems that help businesses
+  </text>
+
+  <!-- Tagline — line 2 -->
+  <text class="tag2" x="65" y="236"
+        font-family="Georgia,'Times New Roman',serif"
+        font-size="13.5" fill="#c6613f" font-style="italic">
+    operate more efficiently. Looking forward to collaboration in different fields,
+  </text>
+
+  <!-- Tagline — line 3 -->
+  <text class="tag3" x="65" y="255"
+        font-family="Georgia,'Times New Roman',serif"
+        font-size="13.5" fill="#c6613f" font-style="italic">
+    contributing to scalable products while evolving into an informed professional.
   </text>
 
   <!-- Divider -->
-  <line x1="62" y1="238" x2="838" y2="238" stroke="#3d3d3a" stroke-width="0.8"/>
+  <line x1="62" y1="280" x2="838" y2="280" stroke="#3d3d3a" stroke-width="0.8"/>
 
   <!-- Meta row -->
-  <text class="meta" x="65"  y="260" font-family="ui-monospace,'SF Mono',monospace" font-size="11.5" fill="#87867f" letter-spacing="0.2">Nairobi, Kenya</text>
-  <text class="meta" x="178" y="260" font-family="ui-monospace,monospace"           font-size="11.5" fill="#3d3d3a">·</text>
-  <text class="meta" x="192" y="260" font-family="ui-monospace,'SF Mono',monospace" font-size="11.5" fill="#87867f" letter-spacing="0.2">TypeScript · Python · React</text>
-  <text class="meta" x="430" y="260" font-family="ui-monospace,monospace"           font-size="11.5" fill="#3d3d3a">·</text>
-  <text class="meta" x="444" y="260" font-family="ui-monospace,'SF Mono',monospace" font-size="11.5" fill="#c6613f" letter-spacing="0.2">Open to work and collaboration.</text>
+  <text class="meta" x="65"  y="302" font-family="ui-monospace,'SF Mono',monospace" font-size="11.5" fill="#87867f" letter-spacing="0.2">Nairobi, Kenya</text>
+  <text class="meta" x="178" y="302" font-family="ui-monospace,monospace"           font-size="11.5" fill="#3d3d3a">·</text>
+  <text class="meta" x="192" y="302" font-family="ui-monospace,'SF Mono',monospace" font-size="11.5" fill="#87867f" letter-spacing="0.2">TypeScript · Python · React</text>
+  <text class="meta" x="430" y="302" font-family="ui-monospace,monospace"           font-size="11.5" fill="#3d3d3a">·</text>
+  <text class="meta" x="444" y="302" font-family="ui-monospace,'SF Mono',monospace" font-size="11.5" fill="#c6613f" letter-spacing="0.2">Open to work and collaboration.</text>
 
 </svg>
