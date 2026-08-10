@@ -115,8 +115,7 @@
   <!-- Meta row -->
   <text class="meta" x="65"  y="302" font-family="ui-monospace,'SF Mono',monospace" font-size="11.5" fill="#87867f" letter-spacing="0.2" opacity="1">Nairobi, Kenya</text>
   <text class="meta" x="178" y="302" font-family="ui-monospace,monospace"           font-size="11.5" fill="#3d3d3a" opacity="1">·</text>
-  <text class="meta" x="192" y="302" font-family="ui-monospace,'SF Mono',monospace" font-size="11.5" fill="#87867f" letter-spacing="0.2" opacity="1">TypeScript · Python · React</text>
-  <text class="meta" x="430" y="302" font-family="ui-monospace,monospace"           font-size="11.5" fill="#3d3d3a" opacity="1">·</text>
+
   <text class="meta" x="444" y="302" font-family="ui-monospace,'SF Mono',monospace" font-size="11.5" fill="#c6613f" letter-spacing="0.2" opacity="1">Open to work and collaboration.</text>
 
 </svg>
