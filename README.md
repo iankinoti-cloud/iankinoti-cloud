@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](./header.svg)
+![header](./banner.svg)
 
 </div>
 
