@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="290" viewBox="0 0 900 290">
   <defs>
 
-    <!-- Blur filters for organic blobs -->
     <filter id="blob-blur" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur in="SourceGraphic" stdDeviation="42"/>
     </filter>
@@ -9,13 +8,7 @@
       <feGaussianBlur in="SourceGraphic" stdDeviation="20"/>
     </filter>
 
-    <!-- Subtle dashboard grid -->
-    <pattern id="grid" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#faf9f5" stroke-width="0.35" opacity="0.055"/>
-    </pattern>
-
     <style>
-      /* Blob drift — lazy organic float */
       @keyframes drift {
         0%,100% { transform: translate(0px, 0px); }
         30%      { transform: translate(18px, -12px); }
@@ -30,22 +23,6 @@
         0%,100% { opacity: 0.065; }
         50%      { opacity: 0.135; }
       }
-
-      /* Dashboard scan line — 1px stripe sliding top→bottom */
-      @keyframes scanline {
-        0%   { transform: translateY(0px);   opacity: 0;    }
-        4%   { opacity: 0.55; }
-        96%  { opacity: 0.55; }
-        100% { transform: translateY(288px); opacity: 0;    }
-      }
-
-      /* Live dot pulse */
-      @keyframes pulse {
-        0%,100% { opacity: 1;   r: 5; }
-        50%      { opacity: 0.3; r: 7; }
-      }
-
-      /* Entrance — staggered slide-up */
       @keyframes slide-up {
         from { opacity: 0; transform: translateY(14px); }
         to   { opacity: 1; transform: translateY(0px);  }
@@ -55,81 +32,59 @@
         to   { opacity: 1; }
       }
 
-      .blob1    { animation: drift    14s ease-in-out infinite;         }
-      .blob2    { animation: drift2   19s ease-in-out infinite;         }
-      .blob3    { animation: breathe   8s ease-in-out infinite;         }
-      .blob4    { animation: drift    22s ease-in-out infinite reverse;  }
-      .live-dot { animation: pulse   2.2s ease-in-out infinite;         }
-      .scan     { animation: scanline  6s linear       infinite;        }
+      .blob1 { animation: drift    14s ease-in-out infinite; }
+      .blob2 { animation: drift2   19s ease-in-out infinite; }
+      .blob3 { animation: breathe   8s ease-in-out infinite; }
+      .blob4 { animation: drift    22s ease-in-out infinite reverse; }
 
-      .name { animation: slide-up 0.7s ease-out 0.10s both; }
-      .sub  { animation: slide-up 0.7s ease-out 0.30s both; }
-      .tag  { animation: slide-up 0.7s ease-out 0.52s both; }
-      .meta { animation: fade-in  1.0s ease-out 0.90s both; }
+      .name  { animation: slide-up 0.7s ease-out 0.10s both; }
+      .sub   { animation: slide-up 0.7s ease-out 0.30s both; }
+      .tag   { animation: slide-up 0.7s ease-out 0.52s both; }
+      .meta  { animation: fade-in  1.0s ease-out 0.90s both; }
     </style>
   </defs>
 
-  <!-- ── Background ── -->
+  <!-- Background -->
   <rect width="900" height="290" fill="#141413" rx="12"/>
 
-  <!-- ── Grid overlay ── -->
-  <rect width="900" height="290" fill="url(#grid)" rx="12"/>
+  <!-- Organic blobs -->
+  <ellipse class="blob1" cx="130" cy="85"  rx="205" ry="132" fill="#c6613f" opacity="0.14" filter="url(#blob-blur)"/>
+  <ellipse class="blob2" cx="775" cy="210" rx="225" ry="145" fill="#d97757" opacity="0.11" filter="url(#blob-blur)"/>
+  <ellipse class="blob3" cx="455" cy="295" rx="285" ry="115" fill="#c6613f" opacity="0.08" filter="url(#blob-blur)"/>
+  <ellipse class="blob4" cx="845" cy="48"  rx="92"  ry="62"  fill="#d97757" opacity="0.10" filter="url(#blob-blur-sm)"/>
 
-  <!-- ── Organic blobs ── -->
-  <ellipse class="blob1" cx="130"  cy="85"  rx="205" ry="132" fill="#c6613f" opacity="0.14" filter="url(#blob-blur)"/>
-  <ellipse class="blob2" cx="775"  cy="210" rx="225" ry="145" fill="#d97757" opacity="0.11" filter="url(#blob-blur)"/>
-  <ellipse class="blob3" cx="455"  cy="295" rx="285" ry="115" fill="#c6613f" opacity="0.08" filter="url(#blob-blur)"/>
-  <ellipse class="blob4" cx="845"  cy="48"  rx="92"  ry="62"  fill="#d97757" opacity="0.10" filter="url(#blob-blur-sm)"/>
-
-  <!-- ── Scan line ── -->
-  <rect class="scan" x="60" y="0" width="780" height="1.5" fill="#faf9f5" opacity="0.10" rx="1"/>
-
-  <!-- ── Corner brackets (UI frame) ── -->
-  <path d="M 20 42 L 20 24 L 40 24"   stroke="#3d3d3a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-  <path d="M 860 24 L 880 24 L 880 42" stroke="#3d3d3a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-  <path d="M 20 248 L 20 266 L 40 266" stroke="#3d3d3a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-  <path d="M 860 266 L 880 266 L 880 248" stroke="#3d3d3a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-
-  <!-- ── Left accent bar ── -->
+  <!-- Left accent bar -->
   <rect x="48" y="70" width="2.5" height="146" fill="#c6613f" rx="1.5" opacity="0.85"/>
 
-  <!-- ── Live indicator ── -->
-  <circle class="live-dot" cx="70"  cy="54" r="5" fill="#c6613f"/>
-  <text x="82" y="59"
-        font-family="ui-monospace,'SF Mono',Menlo,monospace"
-        font-size="11" fill="#87867f" letter-spacing="2.5">LIVE</text>
-
-  <!-- ── Name ── -->
+  <!-- Name -->
   <text class="name" x="62" y="138"
         font-family="system-ui,-apple-system,Arial,sans-serif"
         font-size="62" font-weight="700" fill="#faf9f5" letter-spacing="-1.5">
     Ian Kinoti
   </text>
 
-  <!-- ── Subtitle ── -->
+  <!-- Subtitle -->
   <text class="sub" x="65" y="174"
         font-family="system-ui,-apple-system,Arial,sans-serif"
         font-size="16.5" fill="#87867f" letter-spacing="0.6">
     Software Engineer · TypeScript · Python · React
   </text>
 
-  <!-- ── Tagline (Georgia = Anthropic Serif fallback) ── -->
+  <!-- Tagline -->
   <text class="tag" x="65" y="212"
         font-family="Georgia,'Times New Roman',serif"
         font-size="15" fill="#c6613f" font-style="italic">
     Building interfaces that feel inevitable.
   </text>
 
-  <!-- ── Divider ── -->
+  <!-- Divider -->
   <line x1="62" y1="238" x2="838" y2="238" stroke="#3d3d3a" stroke-width="0.8"/>
 
-  <!-- ── Bottom meta row ── -->
-  <text class="meta" x="65"  y="260" font-family="ui-monospace,'SF Mono',monospace" font-size="11.5" fill="#87867f" letter-spacing="0.2">76 repos</text>
-  <text class="meta" x="148" y="260" font-family="ui-monospace,monospace" font-size="11.5" fill="#3d3d3a">·</text>
-  <text class="meta" x="162" y="260" font-family="ui-monospace,'SF Mono',monospace" font-size="11.5" fill="#87867f" letter-spacing="0.2">TypeScript · Python · JavaScript</text>
-  <text class="meta" x="430" y="260" font-family="ui-monospace,monospace" font-size="11.5" fill="#3d3d3a">·</text>
-  <text class="meta" x="444" y="260" font-family="ui-monospace,'SF Mono',monospace" font-size="11.5" fill="#87867f" letter-spacing="0.2">Nairobi, Kenya</text>
-  <text class="meta" x="558" y="260" font-family="ui-monospace,monospace" font-size="11.5" fill="#3d3d3a">·</text>
-  <text class="meta" x="572" y="260" font-family="ui-monospace,'SF Mono',monospace" font-size="11.5" fill="#c6613f" letter-spacing="0.2">Open to work</text>
+  <!-- Meta row -->
+  <text class="meta" x="65"  y="260" font-family="ui-monospace,'SF Mono',monospace" font-size="11.5" fill="#87867f" letter-spacing="0.2">Nairobi, Kenya</text>
+  <text class="meta" x="178" y="260" font-family="ui-monospace,monospace"           font-size="11.5" fill="#3d3d3a">·</text>
+  <text class="meta" x="192" y="260" font-family="ui-monospace,'SF Mono',monospace" font-size="11.5" fill="#87867f" letter-spacing="0.2">TypeScript · Python · React</text>
+  <text class="meta" x="430" y="260" font-family="ui-monospace,monospace"           font-size="11.5" fill="#3d3d3a">·</text>
+  <text class="meta" x="444" y="260" font-family="ui-monospace,'SF Mono',monospace" font-size="11.5" fill="#c6613f" letter-spacing="0.2">Open to work</text>
 
 </svg>
