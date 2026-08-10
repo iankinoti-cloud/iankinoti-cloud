@@ -39,6 +39,10 @@
 ## ◈ Recent Activity
 
 <!--START_SECTION:activity-->
+1. 💪 Opened PR [#6](https://github.com/janenyasoro/GreenFarm_Management_Backend/pull/6) in [janenyasoro/GreenFarm_Management_Backend](https://github.com/janenyasoro/GreenFarm_Management_Backend)
+2. 💪 Opened PR [#5](https://github.com/janenyasoro/GreenFarm_Management_Backend/pull/5) in [janenyasoro/GreenFarm_Management_Backend](https://github.com/janenyasoro/GreenFarm_Management_Backend)
+3. 🎉 Merged PR [#1](https://github.com/iankinoti-cloud/Flask-SQLAlchemy-Workout-Application-Backend/pull/1) in [iankinoti-cloud/Flask-SQLAlchemy-Workout-Application-Backend](https://github.com/iankinoti-cloud/Flask-SQLAlchemy-Workout-Application-Backend)
+4. 💪 Opened PR [#1](https://github.com/iankinoti-cloud/Flask-SQLAlchemy-Workout-Application-Backend/pull/1) in [iankinoti-cloud/Flask-SQLAlchemy-Workout-Application-Backend](https://github.com/iankinoti-cloud/Flask-SQLAlchemy-Workout-Application-Backend)
 <!--END_SECTION:activity-->
 
 ---
