@@ -33,16 +33,6 @@ REST API with a full slide deck. Built as a teaching artifact.
 
 `TypeScript` &nbsp; `Python` &nbsp; `JavaScript` &nbsp; `React` &nbsp; `Next.js` &nbsp; `Flask` &nbsp; `Vite` &nbsp; `Tailwind` &nbsp; `Supabase` &nbsp; `Vitest` &nbsp; `GitHub Actions` &nbsp; `Azure SWA`
 
----
-
-<!--START_SECTION:activity-->
-- Pushed 0 commits to iankinoti-cloud/iankinoti-cloud
-- Pushed 0 commits to iankinoti-cloud/iankinoti-cloud
-- Created branch "main" in iankinoti-cloud/iankinoti-cloud
-- Opened PR in janenyasoro/GreenFarm_Management_Backend
-- Created branch "feature/ian-tasks-flask" in janenyasoro/GreenFarm_Management_Backend
-<!--END_SECTION:activity-->
-
 <br/>
 
 <div align="center">
