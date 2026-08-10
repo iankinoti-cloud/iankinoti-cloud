@@ -6,7 +6,7 @@
 
 <br/>
 
-I build production tools — interfaces, APIs, the infrastructure underneath. My work sits across TypeScript, Python, and React. I care about how things feel as much as how they work.
+I build production tools — interfaces, APIs, the infrastructure underneath. My work sits across TypeScript, Python, and React. 
 
 ---
 
