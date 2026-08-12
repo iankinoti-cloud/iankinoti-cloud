@@ -10,13 +10,13 @@
 
 ###  About Me
 
- &nbsp;I'm currently working on **AI-powered products and creative digital experiences.**  
- &nbsp;I'm currently learning **AI engineering, LLM systems, scalable architectures, and advanced frontend engineering.**  
- &nbsp;I'm looking to collaborate on **AI products, developer tools, creative technology, and open-source projects.**  
- &nbsp;I'm looking for help with **Designing scalable AI systems and turning product ideas into production-ready software.**  
- &nbsp;Ask me about **React, JavaScript, AI-powered applications, UI/UX, creative technology, and product development.**  
- &nbsp;Pronouns: **He/Him**  
- &nbsp;Fun fact: **I once blew  up  61.8 million tokens in 48 hours!**
+Hi, I’m Kinoti. I’m a software developer focused on building AI-powered products and creative digital experiences. My sweet spot is where AI, product engineering, and frontend development meet; I work with technologies like React and JavaScript while going deeper into AI engineering, LLM systems, and scalable architectures.
+
+What really drives me is taking an idea from a product concept and turning it into something people can actually use. Right now, I’m looking to collaborate on AI products, developer tools, creative technology, and open-source projects, especially where I can contribute to both the technical architecture and the product experience.
+
+I’m particularly interested in learning how to design AI systems that can scale beyond a prototype and become production-ready products. And if you want to talk React, AI applications, UI/UX, or creative technology, I’m always up for that.
+
+A fun fact: I once blew up 61.8 million tokens in 48 hours — so I’ve definitely learned a few things about working with LLMs the hard way.
 
 ###  Tech Stack
 
