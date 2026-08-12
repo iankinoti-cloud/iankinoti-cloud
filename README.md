@@ -1,267 +1,85 @@
-<div align="center">
-
-![header](./banner.svg)
-
-<br/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=3000&pause=1000&color=C6613F&center=true&vCenter=true&repeat=true&width=600&lines=Software+Engineer;AI+Engineer;Creative+Technologist;Building+systems+that+think.)](https://git.io/typing-svg)
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=iankinoti-cloud&style=flat-square&color=c6613f&label=Profile+Views)
-
-</div>
-
-<br/>
-
----
-
-## I BUILD
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Intelligent Systems
-
-AI-powered products, LLM applications, automation, and systems that turn complex workflows into useful experiences.
-
-</td>
-
-<td width="50%" valign="top">
-
-### Digital Experiences
-
-Interfaces that balance engineering precision with visual expression, motion, interaction, and clarity.
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### Product Engineering
-
-Taking an idea from concept → architecture → interface → production.
-
-</td>
-
-<td width="50%" valign="top">
-
-### Creative Technology
-
-Exploring the space where software, design, storytelling, and emerging technology intersect.
-
-</td>
-</tr>
-</table>
-
----
-
-## SELECTED WORK
-
-### [NEXUS](https://github.com/iankinoti-cloud/nexus)
-**AI Operating System for Creative Businesses**
-
-A system designed to coordinate intelligent agents, automate creative workflows, and give creative teams a more capable operational layer.
-
-`AI` `Agents` `React` `Vite` `Claude`
-
----
-
-### [AEGIS](https://github.com/iankinoti-cloud/authenticating-_-system) &nbsp; · &nbsp; [Live →](https://aegis-auth-peach.vercel.app)
-**Liquid-Glass Authentication System**
-
-A full-stack auth system built as a visual and technical statement. Liquid-glass React frontend. Flask backend. Ships as a demo store.
-
-`Flask` `React` `JWT`
-
----
-
-### [NIDUS](https://github.com/iankinoti-cloud/nidus) &nbsp; · &nbsp; [Live →](https://nidus-eta.vercel.app)
-**Sprint Management with AI Collaboration**
-
-Designed around reducing the distance between an idea and actually getting it done. AI assistant, real-time team collaboration, search.
-
-`React` `Supabase`
-
----
-
-### [beyond-test-coverage](https://github.com/iankinoti-cloud/beyond-test-coverage)
-**A Benchmark for LLM Test Suite Quality**
-
-10-rule anti-fragility contract for measuring whether an AI-generated test suite actually protects a codebase — not just covers it.
-
-`Python` `Vitest` `LLM Quality`
-
----
-
-### [Django Blog API](https://github.com/iankinoti-cloud/django-blog-api)
-**REST API + Teaching Artifact**
-
-Built to demonstrate clean REST design. Shipped with a full slide deck. Made to teach as much as to run.
-
-`Python` `Django`
-
----
-
-## GITHUB
-
 <p align="center">
-  <img
-    height="160"
-    src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=iankinoti-cloud&show_icons=true&theme=transparent&title_color=c6613f&icon_color=c6613f&text_color=87867f&hide_border=true&count_private=true"
-    alt="GitHub stats"
-  />
-  &nbsp;
-  <img
-    height="160"
-    src="https://streak-stats.demolab.com?user=iankinoti-cloud&theme=transparent&hide_border=true&ring=c6613f&fire=c6613f&currStreakLabel=c6613f&sideLabels=87867f&dates=87867f&sideNums=242424"
-    alt="GitHub streak"
-  />
-  &nbsp;
-  <img
-    height="160"
-    src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=iankinoti-cloud&layout=compact&theme=transparent&title_color=c6613f&text_color=87867f&hide_border=true&langs_count=6"
-    alt="Top languages"
-  />
-</p>
-
-<p align="center">
-  <img
-    width="100%"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=iankinoti-cloud&bg_color=00000000&color=87867f&line=c6613f&point=c6613f&area=true&hide_border=true"
-    alt="Contribution graph"
-  />
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iankinoti-cloud/iankinoti-cloud/output/github-contribution-grid-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/iankinoti-cloud/iankinoti-cloud/output/github-contribution-grid-snake.svg" alt="Contribution snake" />
-</picture>
-
----
-
-## THE STACK
-
-<p align="center"><strong>Languages</strong></p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,python,java" alt="Languages" />
-</p>
-
-<p align="center"><strong>Frontend</strong></p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,vue,vite,tailwind" alt="Frontend" />
-</p>
-
-<p align="center"><strong>Backend &amp; AI</strong></p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,fastapi,django,flask" alt="Backend" />
-</p>
-
-<p align="center"><strong>Data</strong></p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=postgresql,firebase,supabase" alt="Data" />
-</p>
-
-<p align="center"><strong>Infrastructure</strong></p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,azure,vercel,github,githubactions" alt="Infrastructure" />
-</p>
-
-<p align="center"><strong>Creative</strong></p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=figma" alt="Design" />
-</p>
-
----
-
-## HOW I THINK
-
-> **The interface is only the visible part of the system.**
-
-Good software has architecture.
-
-Great software has intention.
-
-I'm interested in both.
-
-That means thinking about:
-
-**Why does this exist?**
-
-→ before
-
-**How should this work?**
-
-→ before
-
-**How should this look?**
-
-→ and finally
-
-**How do we make it production-ready?**
-
----
-
-## ONE EXPENSIVE LESSON
-
-I once burned through **61.8 million tokens in 48 hours**.
-
-Not exactly a performance milestone.
-
-But it taught me something useful:
-
-> **Infrastructure decisions become product decisions very quickly.**
-
-The lesson stuck.
-
----
-
-## CURRENTLY EXPLORING
-
-| Area | Progress |
-|------|----------|
-| AI Systems | `█████████░` 90% |
-| Product Engineering | `█████████░` 90% |
-| Frontend Systems | `█████████░` 90% |
-| Creative Technology | `████████░░` 80% |
-| System Design | `████████░░` 80% |
-
----
-
-## THE HUMAN PART
-
-I believe technology becomes interesting when it expands what people think is possible.
-
-Not because technology is impressive.
-
-Because **people are**.
-
----
-
-## LET'S CONNECT
-
-<p>
-  <a href="https://linkedin.com/in/iankinoti">
-    <img src="https://img.shields.io/badge/LinkedIn-242424?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="mailto:ian.kinoti@student.moringaschool.com">
-    <img src="https://img.shields.io/badge/Email-242424?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  &nbsp;
   <a href="https://github.com/iankinoti-cloud">
-    <img src="https://img.shields.io/badge/GitHub-242424?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=2ea043&fontSize=54&height=90&width=634&text=Hello%2C%20I'm%20KINOTI" alt="Hello, I&#39;m KINOTI" />
   </a>
 </p>
 
-<br/>
-
 <p align="center">
-  <sub>Built with curiosity. Refined through iteration.</sub>
+  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=26&pause=1000&color=e3b341&center=true&vCenter=true&width=880&height=44&lines=Software%20Developer%20%E2%80%A2%20AI%20Engineer%20%E2%80%A2%20Creative%20Technologist;I%20believe%20that%20we%20are%20only%20limited%20by%20our%20imagination!" alt="Typing headlines" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/iankinoti-cloud">KINOTI</a>
+###  About Me
+
+ &nbsp;I'm currently working on **AI-powered products and creative digital experiences.**  
+ &nbsp;I'm currently learning **AI engineering, LLM systems, scalable architectures, and advanced frontend engineering.**  
+ &nbsp;I'm looking to collaborate on **AI products, developer tools, creative technology, and open-source projects.**  
+ &nbsp;I'm looking for help with **Designing scalable AI systems and turning product ideas into production-ready software.**  
+ &nbsp;Ask me about **React, JavaScript, AI-powered applications, UI/UX, creative technology, and product development.**  
+ &nbsp;Pronouns: **He/Him**  
+ &nbsp;Fun fact: **I once blew  up  61.8 million tokens in 48 hours!**
+
+###  Tech Stack
+
+<p align="left">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="Vue.js" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=black" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest" />
+  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=vscodium&logoColor=white" alt="VS Code" />
 </p>
+
+### 🔗 Connect With Me
+
+<p align="left">
+  <a href="https://linkedin.com/in/www.linkedin.com/in/iankinoti" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:ian.kinoti@student.moringaschool.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+### GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=iankinoti-cloud&show_icons=true&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000&count_private=true" alt="stats" />
+  <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=iankinoti-cloud&layout=compact&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000&langs_count=8" alt="top langs" />
+</p>
+
+### Contribution Graph
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=iankinoti-cloud&bg_color=00000000&color=2ea043&line=2ea043&point=c9d1d9&area=true&hide_border=true" alt="activity graph" />
+</p>
+
+### 💭 Dev Quote
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev quote" />
+</p>
+
+---
+<p align="center"><i> From <a href="https://github.com/iankinoti-cloud">iankinoti-cloud</a></i></p>
